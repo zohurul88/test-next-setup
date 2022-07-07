@@ -1,0 +1,43 @@
+.uploaderModalBody {
+    min-height: 400px;
+}
+
+.uploaderModalLoading {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.uploaderToolbar {
+    padding-left: 1px;
+}
+
+.uploaderToolbar a {
+    margin-right: 4px;
+}
+
+
+.uploaderImageItem {
+    cursor: pointer;
+}
+
+.uploaderImageItemLoader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.uploaderImageItemLoaderImg {
+    opacity: 0.4;
+}
+
+.uploaderImageItem figure {
+    position: relative;
+}
+
+
+.uploaderCheckedIcon {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
